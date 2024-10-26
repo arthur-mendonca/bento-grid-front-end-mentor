@@ -1,0 +1,33 @@
+.aside-wrapper-upper {
+  background-color: #faeee2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.inner-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 210px;
+  gap: 1rem;
+
+  /* background-color: aquamarine; */
+}
+
+.aside-wrapper-upper p {
+  font-size: 2.5rem;
+  font-weight: 500;
+  width: 100%;
+}
+
+.aside-wrapper-upper span {
+  color: #7d59df;
+}
+
+#create-post-img {
+  max-width: 100%;
+}

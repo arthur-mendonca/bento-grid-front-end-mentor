@@ -1,0 +1,26 @@
+.aside-wrapper-bottom {
+  background-color: #ffcc69;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.aside-wrapper-bottom p {
+  font-size: 2.5rem;
+  font-weight: 500;
+  width: 100%;
+}
+
+.inner-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 210px;
+  gap: 1rem;
+}
+#ai-img {
+  max-width: 100%;
+}
