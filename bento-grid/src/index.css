@@ -11,15 +11,15 @@ main {
   gap: 1.2rem;
 
   grid-template-areas:
-    "aside main main main"
-    "aside main main main"
-    "aside main main main"
-    "aside main main main"
-    "aside section section section"
-    "aside section section section";
+    "aside main main main main main"
+    "aside main main main main main"
+    "aside main main main main main"
+    "aside main main main main main"
+    "aside section section section section section"
+    "aside section section section section section";
 
   grid-template-rows: repeat(6, 1fr);
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
 }
 
 aside {

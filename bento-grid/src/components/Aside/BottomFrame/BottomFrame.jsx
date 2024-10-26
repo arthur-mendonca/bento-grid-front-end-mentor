@@ -6,7 +6,7 @@ export const BottomFrame = () => {
     <>
       <div className="aside-wrapper-bottom">
         <div className="inner-wrapper">
-          <p>Create your content using AI</p>
+          <p>Write your content using AI</p>
           <img id="ai-img" src={Illustration} alt="Illustration AI Content" />
         </div>
       </div>
