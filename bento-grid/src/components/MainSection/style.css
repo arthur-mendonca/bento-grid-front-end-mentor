@@ -26,11 +26,32 @@
 }
 
 .first-b-div {
-  height: 100%;
-  width: 100%;
+  /* height: 100%;
+  width: 100%; */
   grid-area: first-b-div;
+
   background-color: #ffffff;
   border-radius: 10px;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+
+  img {
+    position: relative;
+    left: 80px;
+  }
+
+  p {
+    font-weight: 600;
+    font-size: 2.4rem;
+    margin-left: 100px;
+    margin-right: 150px;
+    /* margin: 0; */
+  }
 }
 
 .second-b-div {

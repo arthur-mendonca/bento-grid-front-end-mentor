@@ -1,13 +1,17 @@
 import "./style.css";
 import schedule from "../../assets/images/illustration-schedule-posts.webp";
 import consistent from "../../assets/images/illustration-consistent-schedule.webp";
+import multiple from "../../assets/images/illustration-multiple-platforms.webp";
 
 export const MainSection = () => {
   return (
     <>
       <div className="wrapper">
         <div className="upper-div"></div>
-        <div className="first-b-div"></div>
+        <div className="first-b-div">
+          <img src={multiple} alt="social media links with followers counter" />
+          <p>Manage multiple accounts and platforms.</p>
+        </div>
         <div className="second-b-div">
           <div>
             <p>Maintain a consistent posting schedule.</p>
